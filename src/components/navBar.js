@@ -9,14 +9,13 @@ class Navbar extends React.Component {
     return (
       <div className="Navbar">
         <div className="container-fluid">
-          <Link to="/Badges" className="Navbar__brand">
+          <Link to="/" className="Navbar__brand">
             <img
               className="Navbar__brand-logo"
               src={Logo}
               alt="Logo de la Conf"
             />
-            <span className="font-weight-light">Platzi</span>
-            <span className="font-weight-bold">Conf</span>
+            <span className="font-weight-light">Conference</span>&nbsp;<span className="font-weight-bold">badges</span>
           </Link>
         </div>
       </div>

@@ -3,6 +3,7 @@ import React from "react";
 import "./styles/Badge.css";
 
 import confLogo from "../images/badge-header.svg";
+import userLogo from '../images/github.svg';
 
 class Badge extends React.Component {
   render() {
@@ -24,7 +25,10 @@ class Badge extends React.Component {
         </div>
         <div className="Badge__section-info">
           <h3>{this.props.jobTitle}</h3>
-          <span>@{this.props.user}</span>
+          <div className="Badge__user">
+            <img src={userLogo} alt=""/> <span>@{this.props.user}</span>
+          </div>
+         
         </div>
         <div className="Badge__footer">
           <span> #PlatziConf </span>

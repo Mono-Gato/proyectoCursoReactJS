@@ -5,7 +5,7 @@ import "./styles/Badges.css";
 
 import BadgesList from "../components/BadgesList";
 
-import confLogoHeader from "../images/badge-header.svg";
+import confLogoHeader from "../images/platziconf-logo.svg";
 
 class Badges extends React.Component {
   state = {
@@ -59,7 +59,7 @@ class Badges extends React.Component {
         <div className="Badges__container">
           <div className="Badges__buttons">
             <Link to="/badges/new" className="btn btn-primary">
-              New Badge
+              Add
             </Link>
           </div>
         </div>

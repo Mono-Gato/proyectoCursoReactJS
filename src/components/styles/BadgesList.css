@@ -19,6 +19,10 @@
     margin-left: 1rem;
   }
   .BadgesListItem__info-user {
-    color: #1da1f2;
+    color: #5c6bc0;
+    font-weight: 700;
     
+  }
+  .BadgesListItem__info-user img{
+    height:22px;
   }

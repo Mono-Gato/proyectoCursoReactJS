@@ -1,0 +1,29 @@
+.NotFound{
+    width: 100%;
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+}
+.NotFound img{
+    max-height: 70%;
+}
+.NotFound__anchor{
+    display: flex;
+    align-items: center;
+}
+.NotFound__anchor a{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top:14px ;
+    text-decoration: none;
+}
+.NotFound__anchor a:hover b{
+    color:#7DCD40;
+}
+.NotFound__anchor img{
+    margin-right: 10px;
+}

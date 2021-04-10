@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./styles/BadgesList.css";
+import userLogo from '../images/github.svg';
 
 class BadgesList extends React.Component {
   render() {
@@ -23,7 +24,7 @@ class BadgesList extends React.Component {
                   </span>
                 </div>
                 <div className="BadgesListItem__info-user">
-                  <span>@{badge.user}</span>
+                  <img src={userLogo} alt=""/> <span>@{badge.user}</span>
                 </div>
                 <div>
                   <span>{badge.jobTitle}</span>
